@@ -8,13 +8,14 @@
   body {
     font-family: 'Indie Flower', cursive;
     margin: 0;
-background-image: url("assets/cubes-1920x1080.png");
-background-size: cover;
-  height: 100vh;
-display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: #555;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+    
   h1 {
     font-size: 30px;
     text-transform: uppercase;
@@ -91,38 +92,35 @@ float: right;
   
   .button:hover {
     background-color: #555;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
 
   }
   .image {
     width: auto;
     height: auto;
     border-radius: 25px;
-      padding: 1px;
+    padding: 1px;
     filter: grayscale(10%);
-
   }
-  
+     
+  }
+
   .bottom-img {
-    -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     opacity: 0.8;
     border: 1px solid black;
     border-radius: 25px;
-
-
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .bottom-img:hover {
-    -webkit-filter: grayscale(0%); 
-    filter: grayscale(0%);
+    filter: grayscale(10%);
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
     opacity: 1;
-
     border: 1px solid black;
     border-radius: 25px;
 
-
-
-  
 
   }
