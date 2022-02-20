@@ -8,6 +8,8 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+background-image: url("assets/cubes-1920x1080.png") ;
+
   }
   
   html {
@@ -17,10 +19,17 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
   .column {
     float: left;
-    width: 33.3%;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .column2 {
+float: left;
+    position: center;
+    width: 20%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
@@ -31,14 +40,13 @@
   }
   
   .about-section {
-
+float: right;
     padding: 50px;
     text-align: center;
-    background-image: url(assets/IMG_20211002_090844_cropped.jpg); 
     background-position: center;
     background-size:cover;
-    background-color: #474e5d;
     color: white;
+    height: fit-content;
   }
   
   .container {
@@ -69,6 +77,15 @@
   
   .button:hover {
     background-color: #555;
+  }
+  .image {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: auto;
+  }
+  .image:hover{
+    transform: scale(1.1);
+
   }
   
   @media screen and (max-width: 650px) {
