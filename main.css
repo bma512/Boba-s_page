@@ -8,7 +8,6 @@
 body {
   font-family: 'Indie Flower', cursive;
   margin: 0;
-  background-image: url(assets/IMG_20211219_122817.jpg);
   background-color: #555;
   background-size: cover;
   display: flex;
@@ -25,7 +24,7 @@ h1 {
 p { 
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -40,7 +39,7 @@ p {
 }
 
 .column2 {
-float: left;
+  float: left;
   width: 20%;
   margin-bottom: 16px;
   padding: 0 8px;
@@ -51,34 +50,22 @@ float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   margin-top: 20px;
-  
 }
 
 .about-section {
-float: right;
+  float: right;
   padding: 50px;
   margin-top: 20px;
   padding-top: 40px;
   text-align: center;
   background-position: center;
   background-size:cover;
-  color: black;
+  color: white;
 }
+
 hr {
   border: 1px dotted black;
-
 }
-.container {
-  margin-top: 20px;
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 
 .button {
   font-family: 'Indie Flower', cursive;
@@ -93,26 +80,23 @@ hr {
   cursor: pointer;
   width: auto;
   border-radius: 12px;
-
 }
 
 .button:hover {
   background-color: #555;
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
-
 }
-.image {
-  width: auto;
-  filter: grayscale(10%);
-  border-radius: 25px;
-  padding: 5px;
-margin: 60px;
 
+.image {
+  width: 50%;
+  height: auto;
+  filter: grayscale(10%);
+  margin: 40px;
+  border-style: double;
+  border-radius: 25px;
 }
    
-
-
 .bottom-img {
   filter: grayscale(100%);
   opacity: 0.8;
@@ -121,6 +105,7 @@ margin: 60px;
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .bottom-img:hover {
   filter: grayscale(10%);
   transform: scale(1.1);
@@ -128,6 +113,4 @@ margin: 60px;
   opacity: 1;
   border: 1px solid black;
   border-radius: 25px;
-
-
 }
