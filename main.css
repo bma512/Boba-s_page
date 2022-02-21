@@ -8,6 +8,7 @@
 body {
   font-family: 'Indie Flower', cursive;
   margin: 0;
+  background-image: url(assets/IMG_20211219_122817.jpg);
   background-color: #555;
   background-size: cover;
   display: flex;
@@ -16,9 +17,16 @@ body {
   }
   
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   text-transform: uppercase;
-  padding:20px;
+  margin: 20px;
+}
+
+p { 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .column {
@@ -54,10 +62,10 @@ float: right;
   text-align: center;
   background-position: center;
   background-size:cover;
-  color: white;
+  color: black;
 }
 hr {
-  border: 1px dotted grey;
+  border: 1px dotted black;
 
 }
 .container {
@@ -99,7 +107,7 @@ hr {
   filter: grayscale(10%);
   border-radius: 25px;
   padding: 5px;
-margin: 40px;
+margin: 60px;
 
 }
    
