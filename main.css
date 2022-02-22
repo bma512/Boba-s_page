@@ -11,7 +11,7 @@ html, body, .main-container {
 }
 
 html {
-  background-color: darkgray;
+  background-color: gray;
 }
 
 .main-container {
@@ -34,6 +34,8 @@ h1 {
   font-size: 40px;
   text-transform: uppercase;
   margin: 20px;
+  font-family: 'Indie Flower', cursive;
+
 }
 
 p { 
@@ -41,6 +43,8 @@ p {
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+
 }
 
 
@@ -56,7 +60,7 @@ p {
 }
 
 hr {
-  border: 1px dotted black;
+  border: 1px dotted white;
 }
 
 .button {
